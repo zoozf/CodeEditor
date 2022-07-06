@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#nav-bar{
+  background-color: #cccccc;
+  padding: 2%;
+  height: 2rem;
+}
+#logo{
+  float: left;
+  font-size:1.5rem;
+  font-family: serif;
+}
+
+#button-container{
+  width: 16rem;
+  margin: 0 auto;
+}
+
+.toggle-button{
+  float: left;
+  padding: 3% 5%;
+  border: 0.1rem solid #888888;
+  border-right: none;
+  font-size: 90%;
+}
+
+.hidden{
+  display: none;
+}
+
+#html{
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+#output{
+  border: 0.1rem solid #888888;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.active{
+  background-color: aquamarine;
+}
+.highlightedButton{
+  background-color: green;
+}
+
+#html-text-area{
+  width: 50%;
+  resize: none;
+  border-top:none;
+}
+
+.panel {
+  float: left;
+  border-left: none;
+}
+
